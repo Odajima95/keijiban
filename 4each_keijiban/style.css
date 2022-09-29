@@ -1,0 +1,99 @@
+.menu{
+    background-color:black;
+    width:100%;
+    height:45px;
+}
+.menu li{
+    float:left;
+    list-style:none;
+    color:white;
+    padding-left:40px;
+    padding-right:20px;
+    line-height:45px;
+}
+.left{
+    float:left;
+    width:70%;
+    margin-left:10px;
+    margin-right:20px;
+}
+
+.left h1{
+    width:auto;
+    font-size:25px;
+    padding-left:20px;
+    border-left:4px solid black;
+    border-bottom:4px solid gray;
+    margin-top:30px;
+}
+
+.書き込みフォーム{
+    background-color:whitesmoke;
+    width:auto;
+    padding:20px;
+    border-radius:10px;
+    border:4px solid lightgray;
+}
+
+.書き込みフォーム h3{
+    border-left:3px solid red;
+}
+
+.投稿する input{
+    background-color:gray;
+    border:1px solid gray;
+    border-bottom:2px solid rgb(36, 35, 35);
+    color:white;  
+    border-radius:5px;
+    padding:3px 10px;
+}
+
+.投稿表示{
+    background-color:whitesmoke;
+    width:auto;
+    border-radius:10px;
+    border:4px solid lightgray;
+    margin-bottom:20px;
+}
+
+.投稿表示 h3{
+    border-bottom:3px solid lightgray;
+    margin:20px;
+}
+
+.内容{
+    padding-left:20px;
+    padding-bottom:20px;
+}
+
+.内容 div{
+    margin-top:15px;
+    font-size: smaller;
+}
+
+.right{
+    float:left;
+    width:300px;
+    margin-left:30px;
+    margin-top:15px;
+}
+
+.popular_topics h2,.recommend_link h2,.category h2{
+    border-bottom:1px dashed black   
+}
+
+.popular_topics li,.recommend_link li,.category li{
+    list-style:none;
+    text-align: left;
+    margin-top:10px;
+    margin-left:-20px;
+}
+
+footer{
+    clear:left;
+    width:100%;
+    line-height:45px;
+    background-color:black;
+    color:white;
+    text-align:center;
+}
